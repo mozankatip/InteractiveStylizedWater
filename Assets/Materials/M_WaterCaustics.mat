@@ -50,7 +50,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 0.332
+    - _Alpha: 0.7
     - _High: 3.68
     - _Low: -0.37
     - _QueueControl: 0
