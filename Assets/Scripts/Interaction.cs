@@ -2,11 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InteractiveWater : MonoBehaviour
+public class Interaction : MonoBehaviour
 {
     [SerializeField] RenderTexture renderTexture;
     [SerializeField] Transform interactor;
-
 
     void Awake()
     {

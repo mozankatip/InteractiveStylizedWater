@@ -43,7 +43,7 @@ Material:
     - _FoamScale: 2.7
     - _FoamSpeed: 0.08
     - _Foam_NormalScale: 1.59
-    - _InteractionRippleCutoff: 0.5
+    - _InteractionRippleCutoff: 0.299
     - _MovementScale: 0.791
     - _MovementSpeed: 0.117
     - _NormalScale: 2.51

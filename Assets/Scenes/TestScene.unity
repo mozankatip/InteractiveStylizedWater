@@ -837,7 +837,7 @@ GameObject:
   - component: {fileID: 1256601020}
   - component: {fileID: 1256601019}
   - component: {fileID: 1256601023}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -916,7 +916,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256601018}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.7, y: 11.07, z: -54.6}
+  m_LocalPosition: {x: -22, y: 11, z: -55}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -952,6 +952,7 @@ GameObject:
   - component: {fileID: 1386166131}
   - component: {fileID: 1386166130}
   - component: {fileID: 1386166133}
+  - component: {fileID: 1386166134}
   m_Layer: 4
   m_Name: WaterPlane
   m_TagString: Untagged
@@ -1032,11 +1033,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1386166128}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.000001, y: 2.2156675, z: 10.000001}
-  m_Center: {x: 0, y: -1.1078337, z: 0}
+  m_Size: {x: 10.000001, y: 0.7007034, z: 10.000001}
+  m_Center: {x: 0, y: -0.3503517, z: 0}
+--- !u!114 &1386166134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386166128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f1ae45821392784ba2577ae292a3510, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ripple: {fileID: 1469370022}
 --- !u!1001 &1459140184
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1125,7 +1139,7 @@ GameObject:
   - component: {fileID: 1469370022}
   - component: {fileID: 1469370021}
   m_Layer: 7
-  m_Name: PE_Ripple
+  m_Name: PS_Ripple
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1220,7 +1234,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 1
   prewarm: 1
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -2495,7 +2509,7 @@ ParticleSystem:
       maxGradient:
         serializedVersion: 2
         key0: {r: 0, g: 0, b: 1, a: 0}
-        key1: {r: 0, g: 0, b: 1, a: 1}
+        key1: {r: 0, g: 0, b: 1, a: 0.6446212}
         key2: {r: 0, g: 0, b: 0, a: 1}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -2510,10 +2524,10 @@ ParticleSystem:
         ctime5: 0
         ctime6: 0
         ctime7: 0
-        atime0: 0
-        atime1: 15806
+        atime0: 9638
+        atime1: 26985
         atime2: 46646
-        atime3: 65535
+        atime3: 59367
         atime4: 0
         atime5: 0
         atime6: 0
