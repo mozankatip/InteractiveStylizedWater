@@ -43,6 +43,7 @@ Material:
     - _FoamScale: 2.7
     - _FoamSpeed: 0.08
     - _Foam_NormalScale: 1.59
+    - _InteractionRippleCutoff: 0.5
     - _MovementScale: 0.791
     - _MovementSpeed: 0.117
     - _NormalScale: 2.51
@@ -53,7 +54,8 @@ Material:
     - _RECEIVE_SHADOWS_OFF: 0
     - _RefractionScale: 7
     - _RefractionSpeed: 1.9
-    - _RefractionStrength: 0.0249
+    - _RefractionStrength: 0.0206
+    - _RippleCutoff: 0.5
     - _Shineness: 1
     - _SurfaceScale: 6.09
     - _WaterDepth: 8.13
@@ -63,9 +65,9 @@ Material:
     - _WaveSpeed: 1
     - __RECEIVE_SHADOWS_OFF: 1
     m_Colors:
-    - _DeepWater: {r: 0, g: 0.54801744, b: 0.6603774, a: 0.88235295}
+    - _DeepWater: {r: 0, g: 0.52263784, b: 0.8018868, a: 0.91764706}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
-    - _ShallowWater: {r: 0.24313715, g: 0.868597, b: 0.98039216, a: 0.8235294}
+    - _ShallowWater: {r: 0, g: 0.60429, b: 1, a: 0.92156863}
   m_BuildTextureStacks: []
 --- !u!114 &1884228871837556916
 MonoBehaviour:
