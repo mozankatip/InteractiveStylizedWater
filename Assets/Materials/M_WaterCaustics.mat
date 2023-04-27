@@ -51,8 +51,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _Alpha: 0.7
-    - _High: 3.68
-    - _Low: -0.37
+    - _High: 3.56
+    - _Low: -1.75
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Scale: 0.5

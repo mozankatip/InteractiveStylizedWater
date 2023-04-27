@@ -4,21 +4,18 @@ using UnityEngine;
 
 public class RippleTrigger : MonoBehaviour
 {
-    public ParticleSystem ripple;
+    [SerializeField] ParticleSystem ripple;
 
-    void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.layer == 4)
-        {
-            ripple.Play();
-        }
+
+        ripple.Play();
+
     }
 
-    void OnTriggerExit(Collider other)
+    private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.layer == 4)
-        {
-            ripple.Stop();
-        }
+
+        ripple.Stop();
     }
 }
