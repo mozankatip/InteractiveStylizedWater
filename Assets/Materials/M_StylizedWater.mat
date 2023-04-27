@@ -48,7 +48,7 @@ Material:
     - _MovementSpeed: 0.117
     - _NormalScale: 2.51
     - _NormalSpeed: 0.1
-    - _NormalStrength: 0.1
+    - _NormalStrength: 0.131
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RECEIVE_SHADOWS_OFF: 0
@@ -57,9 +57,9 @@ Material:
     - _RefractionStrength: 0.025
     - _RippleCutoff: 0.5
     - _Shineness: 1
-    - _SurfaceScale: 3
+    - _SurfaceScale: 2.22
     - _WaterDepth: 8
-    - _WaterSpeed: 0.248
+    - _WaterSpeed: 0.1
     - _WaveAmplitude: 0.3
     - _WaveFrequency: 1
     - _WaveSpeed: 1
