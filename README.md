@@ -43,9 +43,13 @@ To use the Interactive Stylized Water Shader and its other components, follow th
 5. For new scenes, create a plane or a cube (not recommended for proper use of wave feature) for the water, and apply the WaterShader material to it. You can also import your custom mesh.
 5. For the interactivity, add a collider to the water object with "Is Trigger" checked.
 6. Create an object to interact with the water, and add a collider and rigidbody to it.
-7. To use the ripple effect, make it a child to the interactor object. You can also create your own ripple effect. If you are using your own effect, note that the blue channel is used in the shader for the effect.
+7. To use the ripple effect, make it a child to the interactor object. You can also create your own ripple effect. If you are using your own effect, note that the blue color channel is used in the shader for showing effect.
 8. Create a new “Orthographic Camera” and make sure its size is set to cover the entire water surface. Set the background type to solid color and set the color to black. Attach the “Interaction.cs” script to it. Set the “Output Texture” of the camera and “Render Texture” fields to the render texture you create, and set the Interactor field to the object you created as an interactor object. 
 9. Set the ripple particles layer to a new layer you want. In your “Orthographic Camera” only select this new layer on culling mask settings. However, in your “Main Camera” deselect this layer.
+10. For the underwater effect, create a new game object with Post Process volume with "Local" mode. Assign the "PP_Underwater" Volume Profile to "Profile" section.
+11. Add "UnderwaterTrigger.cs" to Add a collider component with "Is Trigger" checked. Make sure collider should have a size equal to area of water. 
+12. Tweak the settings of the water, lighting and underwater effect in harmoninous color.
+13. Add a collider and rigidbody to your Main Camera or a Player Object. Deep dive to the water and enjoy!
 
 ## Additional Scripts
 * Interaction.cs
